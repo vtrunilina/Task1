@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<VBox alignment="CENTER" prefHeight="202.0" prefWidth="258.0" spacing="20.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/17.0.2-ea" fx:controller="com.example.demo.HelloController">
+    <padding>
+        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+    </padding>
+   <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Чаевые" />
+   <TextField fx:id="Calculate" text="Введите сумму" />
+   <Text fill="#ee0404" strokeType="OUTSIDE" strokeWidth="0.0" text="Чаевые 5%" />
+   <Label fx:id="Percent5" text="5%" />
+   <Text fill="#d3c60b" strokeType="OUTSIDE" strokeWidth="0.0" text="Чаевые 10%" />
+   <Label fx:id="Percent10" text="10%" />
+   <Text fill="#10e10c" strokeType="OUTSIDE" strokeWidth="0.0" text="Чаевые 15%" />
+   <Label fx:id="Percent15" text="15%" />
+
+    <Label fx:id="welcomeText" />
+    <Button onAction="#onHelloButtonClick" text="Рассчитать" />
+</VBox>
